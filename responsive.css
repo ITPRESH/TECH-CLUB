@@ -1,0 +1,29 @@
+@media(max-width:992px){
+
+    .header-div{
+        text-align: center;
+        padding: 0;
+        margin:0px auto;
+    }
+    .intro-div{
+        flex-direction: column;
+    } 
+    
+    .intro-div .text-div{
+        padding-bottom: 20px;
+    }
+    .read-div{
+        flex-direction: column;
+    }  
+    .average-div{
+        flex-direction: column;
+    }  
+    .number-section .number-div{
+        flex-direction: column;
+        
+        
+    }
+    .member-div{
+        flex-direction: column;
+    }
+}

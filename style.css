@@ -1,0 +1,338 @@
+body{
+    margin:0;
+    padding:0;
+    
+
+}
+
+header .header-div img{
+    width:50px;
+    margin-right:20px;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin:50px 250px;
+}
+ .header-div h3{
+    font-family: "Tuffy", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+ }
+
+.intro-div{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    margin:40px auto 20px auto;
+    align-items: center;
+    width:80%;
+    background-image: url('bkl.jpg');
+    background-size: cover;
+    background-repeat: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.intro-div .text-div h1{
+    font-size: 60px;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: -webkit-linear-gradient(#edb869, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.intro-div .text-div h4{
+    color: gray;
+    font-size: 15px;
+}
+
+.intro-div .text-div button{
+    padding:20px;
+    margin:0px 10px 10px 0px;
+    border: 2px solid black;
+    background-color: rgb(250, 236, 218);
+    border-radius: 8px;
+    font-weight: 700;
+}
+.intro-div .small-div{
+    display: flex;
+    
+    
+}
+.intro-div .small-div img{
+    width:25px;
+    border-radius: 100%;
+    padding-left:0px;
+margin-left:-10px;
+}
+
+.intro-div .small-div h5{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.intro-div .photo-div img{
+    width:400px;
+    height:500px;
+    border-radius: 10px;
+}
+
+.read-div{
+    display: flex;
+    justify-content: space-around;
+    margin:40px auto 20px auto;
+    align-items: center;
+    width:80%;
+   
+}
+
+
+.read-div h1{
+     font-size: 60px;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 10px;
+    padding: 0px;
+  
+}
+
+.read-div img{
+    width:500px;
+   height:600px;
+   border-radius: 10px;
+   padding: 0px;
+}
+
+.average-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+    justify-content: space-around;
+    margin:40px auto 20px auto;
+    align-items: center;
+    width:80%;
+
+}
+.average-div img{
+     width:500px;
+    height:600px;
+    border-radius: 10px;
+    padding: 0px;
+    
+}
+
+.average-div h1{
+    font-size: 60px;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin:0px;
+    
+}
+.average-div h1 #club{
+    border: 3px solid rgb(212, 149, 32);
+    border-radius: 60px 10px 60px 0px;
+    padding:0px 5px;
+}
+
+.average-div h5{
+    font-size: 15px ;
+    color: gray;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 0px;
+}
+.average-div h5 span{
+    font-size: 17px;
+    color: black;
+}
+.number-section .number-div{
+    display: flex;
+    justify-content: space-evenly;
+    width:70%;
+    margin:30px auto;
+    
+}
+.number-section{
+    background-image: url('tm\ blk.jpg');
+    background-size: cover;
+    background-repeat: none;
+    padding: 30px;
+    width: 80%;
+    margin:30px auto;
+    border-radius: 10px;
+}
+.number-section p{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.number-section .number-div h1{
+    border:1px solid black;
+    text-align: center;
+    font-size: 25px;
+    width:30%;
+    border-radius: 5px;
+    
+}
+.number-section .number-div h4{
+    font-size: 18px;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.member-section p{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.member-div{
+    
+    display: flex;
+    justify-content: space-around;
+    margin:20px auto;
+    width:70%;
+    
+    
+    
+      
+}
+
+.member-div :hover{
+        width: 200px;
+        background-color: rgb(186, 202, 202);
+}
+.member-div .starter{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding:20px 80px;
+    
+}
+.member-div .pro{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding:20px 80px;
+    
+}
+
+
+    .member-div .enterprise{
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding:20px 80px;
+    }
+.member-div h1 {
+    font-size: 15px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.member-div h5{
+    font-size: 15px;
+    color: gray;
+}
+
+.member-div h5 span{
+    font-size: 20px;
+    font-weight: 200;
+}
+.member-div h1 span{
+    font-size: 35px;
+    font-weight:900;
+    color: black;
+}
+
+.member-div h3{
+    font-size: 20px;
+}
+ .member-div button{
+    background-color: bisque;
+    border:1px solid black;
+padding:10px 30px;
+border-radius: 7px;
+font-family: "Tuffy", sans-serif;
+font-weight: 700;
+font-style: normal;
+} 
+
+.star-div{
+    text-align: center;
+    margin:50px;
+}
+
+.star-div h1{
+    font-size: 40px;
+    font-family: "Tuffy", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.star-div h5{
+    font-size: 15px;
+    color: gray;
+}
+
+.footer-div .small-div img{
+    width:25px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding-left:0px;
+margin-left:-5px;
+}
+
+
+.footer-div{
+    text-align: center;
+    background-color: rgb(35, 35, 88);
+    padding: 50px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-div h1{
+    font-size: 50px;
+    font-family: "Tuffy", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.footer-div button{
+    padding:20px;
+    margin:0px 10px 10px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;}
+
+.footer-div .copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    width:80%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.footer-div .copyright h5{
+    font-family: "Tuffy", sans-serif;
+  font-weight: 700;
+  font-style: normal;}
